@@ -3,175 +3,388 @@
   padding: 0;
 }
 
-body {
-  background: linear-gradient(
-    to bottom,  
-  #270a42 30%,
-  #c5c5b9 30% 60%,
-  #f1e8df 60%
-);
-}
-
-#tem-principal {
-  font-size: 5vw;
-}
-
-.start {
-  display: grid;
-  place-items: center;
-  margin-left: 30vw;
-  margin-right: 30vw;
-  text-align: center;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 12vh;
-  color: #ffffff;
-}
-
-.icono {
-  height: 3vh;
-  width: 3vw;
+/*Escritorio*/
+@media (min-width: 1199.98px)  {
   
-}
+  body {
+    background: linear-gradient(
+      to bottom,  
+    #270a42 30%,
+    #ebebda 30% 60%,
+    #f1e8df 60%
+  );
+  }
 
-#img-car {
-  margin-top: 5vh;
-}
+  header {
+    justify-content: space-around;
+    height: 12vh;
+  }
 
-#space {
-  margin-right: 35vw;
-  font-family: 'Raleway', sans-serif;
-  font-size: x-large;
-}
+  input[type= button]{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    background-color: #40e0b0;
+    border-color: #40d6a9;
+    height: 7vh;
+    width: 10vw;
+  }
 
-span {
-  font-weight: normal;
-}
-#font {
-  font-family: 'Gabarito', sans-serif;
-  font-size: medium;
-  font-weight: normal;
-  padding-bottom: value;
-  border-bottom-style: solid;
-  border-color: #40e0b0;
-}
+  section {
+    width: 21vw;
+  }
 
-#tem {
-  font-weight: bold;
-  padding-bottom: value;
-  border-bottom-style: solid;
-  border-color: #40e0b0;
-}
+  h2 {
+    margin-left: 9vw;
+    margin-bottom: 5vh;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border-color: black;
+    border-style:solid;
+    border-width: thin;
+  }
 
-h1 {
-  color: white;
-}
+  h3 {
+    margin-bottom: 3vh;
+  }
 
-input[type= button]{
-  margin-top: 3vh;
-  margin-bottom: 3vh;
-  background-color: #40e0b0;
-  border-color: #40d6a9;
-  font-weight: bold;
-  height: 7vh;
-  width: 10vw;
-}
+  footer {
+    height: 30vh;
+    flex-direction: column;
+  }
 
-.medium {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 15vh;
-  color: #270a42;
-}
+  .start {
+    display: grid;
+    place-items: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
 
-section {
-  width: 21vw;
-  text-align: center;
-}
+  .flex {
+    display: flex;
+  }
 
-#section-left {
-  margin-left: 10vw;
-}
+  .align-center {
+    align-items: center;
+  }
 
-#section-right  {
-  margin-right: 10vw;
-}
+  .justify-center {
+    justify-content: center;
+  }
 
-p {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  line-height: 3.5vh;
-}
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .color-white {
+    color: #ffffff;
+  }
 
-h2 {
-  font-weight: normal;
-  margin-left: 9vw;
-  margin-bottom: 5vh;
-  width: 3vw;
-  height: 3vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  border-color: black;
-  border-style:solid;
-  border-width: thin;
-}
+  .text-center {
+    text-align: center;
+  }
 
-h3 {
-  margin-bottom: 3vh;
-}
+  .font-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+  }
 
-.final {
-  margin-top: 25vh;
-  height: 70vh;
-}
+  .font-gabarito {
+    font-family: 'Gabarito', sans-serif;
+    font-size: medium;
+  }
 
-#img-final {
-  background-color: #40d6a9;
-  border-radius: 50%;
-  width: 28vw;
-  height: 28vw;
-  margin-left: 15vw;
-}
+  .font-gill-sans {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 3.5vh;
+  }
 
-#section-final {
-  background-color: #270a42;
-  text-align: start;
-  color: white;
-  position: relative;
-  bottom: 35vh;
-  left: 35vw;
-  padding: 5vw;
-  height: 30vh;
-  width: 38vw;
-}
+  .font-normal {
+    font-weight: normal;
+  }
 
-#text-tem-final {
-  font-size: 6vh;
-  margin-bottom: 3vh;
-}
+  .icono {
+    height: 3vh;
+    width: 3vw;
+    
+  }
 
-footer {
-  height: 30vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+  .linea-low {
+    padding-bottom: value;
+    border-bottom-style: solid;
+    border-color: #40e0b0;
+  }
 
-#space-final {
-  font-family: 'Raleway', sans-serif;
-  font-size: x-large;
-  margin-bottom: 5vh;
-}
+  .medium {
+    margin-top: 15vh;
+    color: #270a42;
+  }
 
-.iconos-final {
-  width: 8vw;
-  height: 5vh;
-  display: flex;
-  justify-content: space-evenly;
+  .final {
+    margin-top: 25vh;
+    height: 70vh;
+  }
+
+  .iconos-final {
+    width: 8vw;
+    height: 5vh;
+  }
+
+  #tem-principal {
+    font-size: 5vw;
+  }
+
+  #img-car {
+    margin-top: 5vh;
+  }
+
+  #space {
+    margin-right: 35vw;
+  }
+
+  #section-left {
+    margin-left: 10vw;
+  }
+
+  #section-right  {
+    margin-right: 10vw;
+  }
+
+  #img-final {
+    background-color: #40d6a9;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    margin-left: 15vw;
+  }
+
+  #section-final {
+    background-color: #270a42;
+    text-align: start;
+    position: relative;
+    bottom: 35vh;
+    left: 35vw;
+    padding: 5vw;
+    height: 30vh;
+    width: 38vw;
+  }
+
+  #text-tem-final {
+    font-size: 6vh;
+    margin-bottom: 3vh;
+  }
+
+  #space-final {
+    margin-bottom: 5vh;
+  }
 }
+/*Fin Escritorio*/
+
+/*Tablet*/
+/*Portrait*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:portrait) {
+  
+  body {
+    background: linear-gradient(
+      to bottom,  
+    #270a42 30%,
+    #ebebda 30% 60%,
+    #f1e8df 60%
+  );
+  }
+
+  header {
+    justify-content: space-around;
+    height: 12vh;
+  }
+
+  input[type= button]{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-weight: bold;
+    background-color: #40e0b0;
+    border-color: #40d6a9;
+    height: 7vh;
+    width: 20vw;
+  }
+
+  section {
+    width: 80vw;
+  }
+
+  h2 {
+    position: relative;
+    top: 70px;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    border-color: black;
+    border-style:solid;
+    border-width: thin;
+  }
+
+  h3 {
+    margin-left: 8vw;
+    margin-bottom: 3vh;
+    font-size: 4vh;
+  }
+
+  footer {
+    height: 30vh;
+    flex-direction: column;
+  }
+
+  p {
+    margin-left: 8vw;
+  }
+
+  .start {
+    display: grid;
+    place-items: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .color-white {
+    color: #ffffff;
+  }
+
+  .font-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+  }
+
+  .font-gabarito {
+    font-family: 'Gabarito', sans-serif;
+    font-size: medium;
+  }
+
+  .font-gill-sans {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    line-height: 3vh;
+  }
+
+  .font-normal {
+    font-weight: normal;
+  }
+
+  .icono {
+    height: 3.5vh;
+    width: 3.5vw;
+    
+  }
+
+  .linea-low {
+    padding-bottom: value;
+    border-bottom-style: solid;
+    border-color: #40e0b0;
+  }
+
+  .medium {
+    color: #270a42;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-medium {
+    width: 70vw;
+  }
+
+  .final {
+    margin-top: 10vh;
+    height: 70vh;
+  }
+
+  .iconos-final {
+    width: 20vw;
+    height: 5vh;
+  }
+
+  #tem-principal {
+    font-size: 8vw;
+  }
+
+  #img-car {
+    margin-top: 5vh;
+    height: 35vh;
+    width: 65vw;
+  }
+
+  #space {
+    margin-right: 35vw;
+  }
+
+
+  #img-final {
+    background-color: #40d6a9;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 5vw;
+  }
+
+  #section-final {
+    background-color: #270a42;
+    text-align: start;
+    position: relative;
+    bottom: 20vh;
+    left: 30vw;
+    padding-top: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;
+    height: 40vh;
+    width: 58vw;
+  }
+
+  #text-tem-final {
+    font-size: 4.5vh;
+    margin-left: 8vw;
+    margin-bottom: 3vh;
+  }
+
+  #space-final {
+    margin-bottom: 5vh;
+  }
+
+  #button-final{
+    margin-left: 8vh;
+  }
+
+  #p-final {
+    font-size: 2.5vw;
+  }
+}
+/*landscape*/
+@media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
+  body{background: blue;}
+}
+/*fin tablet*/
+
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+  body{background: green;}
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+  body{background: black;}
+}
+/*fin movil*/
