@@ -375,7 +375,178 @@
 }
 /*landscape*/
 @media (min-width: 991.98px) and (max-width: 1199.98px)and (orientation:landscape) {
-  body{background: blue;}
+
+  body {
+    background: linear-gradient(
+      to bottom,  
+    #270a42 30%,
+    #ebebda 30% 60%,
+    #f1e8df 60%
+  );
+  }
+
+  header {
+    justify-content: space-around;
+    height: 9vw;
+  }
+
+  input[type= button]{
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    font-weight: bold;
+    background-color: #40e0b0;
+    border-color: #40d6a9;
+    height: 4vw;
+    width: 12vw;
+  }
+
+  section {
+    width: 21vw;
+  }
+
+  h2 {
+    margin-left: 9vw;
+    margin-bottom: 3.5vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    border-color: black;
+    border-style:solid;
+    border-width: thin;
+  }
+
+  h3 {
+    margin-bottom: 2.5vw;
+  }
+
+  footer {
+    height: 18vw;
+    flex-direction: column;
+  }
+
+  .start {
+    display: grid;
+    place-items: center;
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .color-white {
+    color: #ffffff;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .font-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+  }
+
+  .font-gabarito {
+    font-family: 'Gabarito', sans-serif;
+    font-size: medium;
+  }
+
+  .font-gill-sans {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 2vw;
+  }
+
+  .font-normal {
+    font-weight: normal;
+  }
+
+  .icono {
+    height: 3vh;
+    width: 3vw;
+    
+  }
+
+  .linea-low {
+    padding-bottom: value;
+    border-bottom-style: solid;
+    border-color: #40e0b0;
+  }
+
+  .medium {
+    margin-top: 10vw;
+    color: #270a42;
+  }
+
+  .final {
+    margin-top: 15vw;
+    height: 40vw;
+  }
+
+  .iconos-final {
+    width: 8vw;
+    height: 5vw;
+  }
+
+  #tem-principal {
+    font-size: 6vw;
+  }
+
+  #img-car {
+    margin-top: 4vw;
+  }
+
+  #space {
+    margin-right: 35vw;
+  }
+
+  #section-left {
+    margin-left: 10vw;
+  }
+
+  #section-right  {
+    margin-right: 10vw;
+  }
+
+  #img-final {
+    background-color: #40d6a9;
+    border-radius: 50%;
+    width: 28vw;
+    height: 28vw;
+    margin-left: 15vw;
+  }
+
+  #section-final {
+    background-color: #270a42;
+    text-align: start;
+    position: relative;
+    bottom: 15vw;
+    left: 35vw;
+    padding: 5vw;
+    height: 17vw;
+    width: 38vw;
+  }
+
+  #text-tem-final {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+  }
+
+  #space-final {
+    margin-bottom: 3vw;
+  }
 }
 /*fin tablet*/
 
@@ -387,20 +558,21 @@
   body {
     background: linear-gradient(
       to bottom,  
-    #270a42 20%,
-    #ebebda 20% 63%,
+    #270a42 23%,
+    #ebebda 23% 63%,
     #f1e8df 63%
   );
   }
 
   header {
     justify-content: space-around;
-    height: 25vw;
+    height: 35vw;
   }
 
   input[type= button]{
-    margin-top: 8vw;
-    margin-bottom: 9vw;
+    margin-top: 10vw;
+    margin-bottom: 15vw;
+    font-size: 4.5vw;
     font-weight: bold;
     background-color: #40e0b0;
     border-color: #40d6a9;
@@ -432,10 +604,6 @@
   footer {
     height: 40vw;
     flex-direction: column;
-  }
-
-  p {
-  
   }
 
   .start {
@@ -528,6 +696,7 @@
 
   #img-car {
     margin-top: 1vw;
+    margin-bottom: 5vw;
     height: 50vw;
     width: 90vw;
   }
@@ -579,6 +748,193 @@
 }
 /*landscape*/
 @media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
-  body{background: black;}
+
+  body {
+    background: linear-gradient(
+      to bottom,  
+    #270a42 30%,
+    #ebebda 30% 60%,
+    #f1e8df 60%
+  );
+  }
+
+  header {
+    justify-content: space-around;
+    height: 15vw;
+  }
+
+  input[type= button]{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    background-color: #40e0b0;
+    border-color: #40d6a9;
+    height: 7vw;
+    width: 20vw;
+  }
+
+  section {
+    width: 80vw;
+  }
+
+  h2 {
+    position: relative;
+    top: 70px;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    border-color: black;
+    border-style:solid;
+    border-width: thin;
+  }
+
+  h3 {
+    margin-left: 8vw;
+    margin-bottom: 3vw;
+    font-size: 7vh;
+  }
+
+  footer {
+    height: 20vw;
+    flex-direction: column;
+  }
+
+  p {
+    margin-left: 8vw;
+  }
+
+  .start {
+    display: grid;
+    place-items: center;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    text-align: center;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
+  .color-white {
+    color: #ffffff;
+  }
+
+  .font-raleway {
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+  }
+
+  .font-gabarito {
+    font-family: 'Gabarito', sans-serif;
+    font-size: medium;
+  }
+
+  .font-gill-sans {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    line-height: 3vw;
+  }
+
+  .font-normal {
+    font-weight: normal;
+  }
+
+  .icono {
+    height: 3.5vw;
+    width: 3.5vw;
+    
+  }
+
+  .linea-low {
+    padding-bottom: value;
+    border-bottom-style: solid;
+    border-color: #40e0b0;
+  }
+
+  .medium {
+    color: #270a42;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-medium {
+    width: 70vw;
+  }
+
+  .final {
+    margin-top: 10vw;
+    height: 67vw;
+  }
+
+  .iconos-final {
+    width: 20vw;
+    height: 5vw;
+  }
+
+  #tem-principal {
+    font-size: 8vw;
+  }
+
+  #img-car {
+    margin-top: 5vw;
+    height: 35vw;
+    width: 65vw;
+  }
+
+  #space {
+    margin-right: 35vw;
+  }
+
+
+  #img-final {
+    background-color: #40d6a9;
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 5vw;
+  }
+
+  #section-final {
+    background-color: #270a42;
+    text-align: start;
+    position: relative;
+    bottom: 20vw;
+    left: 30vw;
+    padding-top: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vw;
+    height: 33vw;
+    width: 58vw;
+  }
+
+  #text-tem-final {
+    font-size: 4.5vw;
+    margin-left: 8vw;
+    margin-bottom: 3vw;
+  }
+
+  #space-final {
+    margin-bottom: 2vw;
+  }
+
+  #button-final{
+    margin-left: 8vw;
+  }
+
+  #p-final {
+    font-size: 2vw;
+  }
 }
 /*fin movil*/
